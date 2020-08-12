@@ -4,7 +4,7 @@ import { createStore, applyMiddleware } from "redux";
 import { Provider } from "react-redux";
 import thunk from "redux-thunk";
 
-import { reducer } from "./store";
+import { reducer } from "./store/reducers";
 
 import App from "./App";
 
