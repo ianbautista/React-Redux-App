@@ -1,49 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
+#root {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
 
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-sizing: border-box;
+  text-align: center;
+  background-image: url("https://www.wallpapersin4k.org/wp-content/uploads/2017/04/White-Board-Wallpaper-4.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: fill;
+  width: 100%;
+  height: 98vh;
+  margin: 0;
+  overflow: hidden;
+  /* border: 2px solid red; */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section {
+  box-sizing: border-box;
+  width: 60%;
+  height: 98vh;
+  /* border: 2px solid green; */
 }
 
 h1 {
   font-size: 5rem;
+  font-family: 'Permanent Marker', cursive;
 }
 
 h2 {
   font-size: 1rem;
+  padding: 0;
+  margin-top: 0;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: crimson;
+  height: 2rem;
+  font-size: 1.2rem;
+  padding: 1.5%;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-family: 'Architects Daughter', cursive;;
 }
 

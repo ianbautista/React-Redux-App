@@ -13,10 +13,10 @@ const Insult = (props) => {
 	return (
 		<section>
 			<h2>
-				Sorry... not sorry.
 				<span role="img" aria-label="emoji">
 					😈
 				</span>
+				Insults.
 			</h2>
 			{props.isLoading ? <h4>Wait...stooping down on your level.</h4> : null}
 			{props.error ? (
