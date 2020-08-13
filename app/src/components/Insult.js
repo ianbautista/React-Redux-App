@@ -12,21 +12,29 @@ const Insult = (props) => {
 
 	return (
 		<section>
-			<h1>
+			<h2>
 				Sorry... not sorry.
 				<span role="img" aria-label="emoji">
 					😈
 				</span>
-			</h1>
+			</h2>
 			{props.isLoading ? <h4>Wait...stooping down on your level.</h4> : null}
 			{props.error ? (
-				<p style={{ color: "red" }}>Oops... I guess you're not even worth it. {props.error}</p>
+				<h1 style={{ color: "red" }}>
+					Oops... I guess you're not even worth it. {props.error}
+				</h1>
 			) : null}
 			{props.insult !== 0 ? (
 				<div>
-					<h2 key={props.number}>{props.insult}</h2>
+					<h1 key={props.number}>"{props.insult}"</h1>
 				</div>
 			) : null}
+			<button
+				className="button is-primary is-rounded is-small"
+				onClick={() => props.fetchInsult()}
+			>
+				Is that all you've got?
+			</button>
 		</section>
 	);
 };
