@@ -16,7 +16,7 @@ export const reducer = (state = initialState, action) => {
 		case FETCH_INSULT_SUCCESS:
 			return {
 				...state,
-				insult: action.payload,
+				insult: action.payload.insult,
 				isLoading: false,
 				error: "",
 			};

@@ -10,9 +10,10 @@ export const fetchInsult = () => {
 		axios
 			.get("https://evilinsult.com/generate_insult.php?lang=en&type=json")
 			.then((response) => {
+				console.log(response);
 				dispatch({
 					type: FETCH_INSULT_SUCCESS,
-					payload: response.data.insult,
+					payload: response.data,
 				});
 			})
 			.catch((error) => {
