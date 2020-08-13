@@ -6,6 +6,7 @@ export default function App() {
 	return (
 		<div className="App">
 			<Insult />
+			<div className="devil-img"> </div>
 		</div>
 	);
 }

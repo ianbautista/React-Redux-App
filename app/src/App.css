@@ -54,6 +54,17 @@ button {
   margin: 0 auto;
   border: 2px solid black;
   border-radius: 10px;
-  font-family: 'Architects Daughter', cursive;;
+  font-family: 'Architects Daughter', cursive;
 }
 
+.devil-img {
+ background-image: url("https://media.tenor.com/images/c75b30221aac29d2e8285748ac85d387/tenor.gif");
+ background-repeat: no-repeat;
+ background-size: contain;
+  position: fixed;
+  width: 190px;
+  height: 266px;
+  z-index: 99;
+  bottom: 0;
+  right: 0;
+}
