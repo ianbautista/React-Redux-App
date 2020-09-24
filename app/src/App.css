@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+#root {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: center;
+  background-image: url("https://www.wallpapersin4k.org/wp-content/uploads/2017/04/White-Board-Wallpaper-4.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: fill;
+  width: 100%;
+  height: 98vh;
+  margin: 0;
+  overflow: hidden;
+  /* border: 2px solid red; */
+}
+
+section {
+  box-sizing: border-box;
+  width: 60%;
+  height: 98vh;
+  /* border: 2px solid green; */
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+  font-size: 1rem;
+  padding: 0;
+  margin-top: 0;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: crimson;
+  height: 2rem;
+  font-size: 1.2rem;
+  padding: 1.5%;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.devil-img {
+ background-image: url("https://media.tenor.com/images/c75b30221aac29d2e8285748ac85d387/tenor.gif");
+ background-repeat: no-repeat;
+ background-size: contain;
+  position: fixed;
+  width: 190px;
+  height: 266px;
+  z-index: 99;
+  bottom: 0;
+  right: 0;
+}
